@@ -9,45 +9,159 @@
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-    
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Lato|Comfortaa|Chivo|Montserrat|Ubuntu|Roboto' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Belleza|Telex' rel='stylesheet' type='text/css'>
 	
 	
 	
 </head>
 <body> 
 
-<div id="wrapper">
-<div id="top">
-<h2>Front End Web Design and Development</h2>
-<p>Hello, my name is Jessica, and I am currently a web development intern. With an undergraduate degree in engineering, I come from a technical background that has given me experience in areas such as project design, trouble shooting, and analysis. I am interested in career opportunities that will allow me to gain experience in user experience design and front end web development. The portfolio pieces below are from independent studying and coursework I have been doing. I can be contacted at jessica.pierre23[at]gmail.com.  </p>
+<div id="container">
+<header>
+<span>
+Jessica Pierre
+</span>
+<nav>
+<a href="#about-me">About Me</a>
+<a href="#my-skills">Skills & Experience</a>
+<a href="#my-projects">My Projects</a>
+<a href="#contact-me">Contact Me</a>
+</nav>
+</header>
+
+
+
+
+
+<div id="about">
+<h2 id="about-me">About Me</h2>
+
+
+<p>Hello, my name is Jessica, and I am currently a web development intern. With an undergraduate degree in engineering, I come from a technical background that has given me experience in areas such as project design, trouble shooting, and analysis. I am interested in career opportunities that will allow me to gain experience in user experience and web design.</p>
+</div>
+<div id="sections">
+<h2 id="my-skills">Skills &amp; Experience</h2>
+<section id="section1">
+<div class="images"><img src="gear.png" /></div>
+<h3>Technical Background</h3>
+<p>With my technical background, web design has been a great field for me to transition into because it requires abilities that I have already developed as an engineering major.</p>
+<ul>
+<li>Planning, designing, and implementing systems to meet objectives</li>
+<li>Collecting, organizing, and analyzing data in collaboration with others to deliver solutions to problems</li>
+<li>Testing and revising project iterations with thoroughness, attention to detail, and efficiency</li>
+<li>Proficiency in Microsoft Office Applications: Outlook, Word, Excel, PowerPoint, and Visio</li>
+</ul>
+</section>
+
+<section id="section2">
+<div class="images"><img src="design.png" /></div>
+<h3>Relevant Experience</h3>
+<p>My work experience as a web development
+intern has given me a foundational introduction to web design and development. At this internship, I have learned about the basic details, large and small, of creating web sites. I have become familiar with content management systems, website hosting, and HTML/CSS coding techniques. I have also gained experience working with Basecamp for project management.</p>
+<ul>
+<li>Install WordPress onto client sites, along with plugins and design templates via WordPress interface and FTP access into site files</li>
+<li>Set up menu and page layouts for sites according to wireframe documents</li>
+<li>Load and style content on site pages via WordPress editor, template/plugin short codes, and CSS/PHP files</li>
+<li>QA testing of websites to ensure layout is correct and element functions work properly</li>
+
+
+</ul>
+</section>
+
+<section id="section3">
+<div class="images"><img src="code.png" /></div>
+<h3>Design & Development Skills</h3>
+<p>Independent studying and front end development coursework have also broadened my web development capabilities and taught me to create and manipulate dynamic web sites. I have working knowledge of and some experience with some languages and tools.</p>
+<ul>
+<li>HTML and CSS</li>
+<li>JavaScript and jQuery</li>
+<li>PHP, MySQL, Java and C++</li>
+<li>Adobe InDesign, Photoshop, and Illustrator</li>
+
+</ul>
+</section>
+
 
 </div>
+
+
+
+<!--<div id="skills">
+<h2 id="my-skills">Skills</h2>
+<p>Software/Computer Skills
+	Proficiency in Microsoft Office Applications: Outlook, Word, Excel, PowerPoint, and Visio<br/>
+	Experience with Adobe InDesign, Photoshop, and Illustrator<br/>
+	Working knowledge of HTML, CSS, JavaScript, jQuery, Java, C++, PHP, and SQL
+
+</p>
+</div>-->
+<div id="projects">
+<h2 id="my-projects">My Projects</h2>
 <div id="pieces">
+<div class="project">
+
 <div id="piece1">
 <a href="http://tcperry.github.io/tutoring-company/index.html" target="_blank"><img src="tutoring-company2.png" /></a>
+
+</div>
+<div class="piece-description"><a href="http://tcperry.github.io/tutoring-company/index.html" target="_blank"><h3>Tutoring Company</h3></a>
+<p>This is a basic HTML/CSS static site that consists of eight pages. It is not a site for an actual company.
+</p></div>
 </div>
 
+<div class="project">
 <div id="piece2">
 <a href="http://tcperry.github.io/location-lookup/" target="_blank"><img src="location-lookup2.png" /></a>
-</div>
 
+</div>
+<div class="piece-description"><a href="http://tcperry.github.io/location-lookup/" target="_blank"><h3>Location Lookup</h3></a>
+<p>This application uses a Foursquare API to find locations and contact information for businesses (e.g., restaurants, malls) of any kind within a specified radius of an address anywhere in the US. It then uses a Google Maps API to display those locations on a map, and for locations with listed addresses, a link to get directions is provided when a location's marker is clicked.</p></div>
+</div>
+<div class="project">
 <div id="piece3">
 <a href="http://tcperry.github.io/cough-quiz/" target="_blank"><img src="cough-quiz.png" /></a>
+
+</div>
+<div class="piece-description"><a href="http://tcperry.github.io/cough-quiz/" target="_blank"><h3>Cough Quiz</h3></a>
+<p>This application asks a user a series of questions to determine the likely cause of the user's cough.
+</p></div>
 </div>
 
-
-
+<div id="second-row">
+<div class="project">
 <div id="piece4">
 <a href="http://tcperry.github.io/pics-graphics/" target="_blank"><img src="pics-graphics2.png" /></a>
-</div>
 
+</div>
+<div class="piece-description"><a href="http://tcperry.github.io/pics-graphics/" target="_blank"><h3>Pictures and Graphics for Inspiration</h3></a>
+<p>This application uses both a Bigstock Photo API and Flickr Photo API. It allows a user to type in a category of any kind (desserts, fireworks) and displays pictures of that category from Bigstock on the left side and pictures from Flickr on the right.</p></div>
+</div>
+<div class="project">
 <div id="piece5">
 <a href="http://tcperry.github.io/thingstodo/" target="_blank"><img src="thingstodo3.png" /></a>
+
+</div>
+
+<div class="piece-description"><a href="http://tcperry.github.io/thingstodo/" target="_blank"><h3>Things to Do</h3></a>
+<p>This application allows a user to enter list items one at a time to make a list whose items can be dragged and dropped in any order. The list items can also be checked on or off and can be removed by double-clicking on them.
+</p></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div id="contact">
+<h2 id="contact-me">Contact Me</h2>
+<a href="mailto:jessica.pierre23@gmail.com" target="_blank"><img src="email.png" /></a>
+<a href="http://linkedin.com/in/jpierre2306" target="_blank"><img src="linkedin.png" /></a>
+
 </div>
 </div>
 
 
-</div>
+
+
+
 </body>
 </html>
