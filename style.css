@@ -109,7 +109,7 @@ font-size:12px;
 }
 
 #pieces {
-width:90%;
+width:100%;
 margin-right:auto;
 margin-left:auto;
 clear:both;
@@ -211,7 +211,11 @@ margin:0 auto;
 
 
 }
+div#second-row:hover {
+border: none !important;
+box-shadow:none !important;
 
+}
 
 
 
